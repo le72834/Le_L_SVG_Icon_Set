@@ -1,1 +1,1 @@
-SVG Icon Project
+#SVG Icon Project

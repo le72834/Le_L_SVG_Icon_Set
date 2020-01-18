@@ -1,1 +1,1 @@
-# Le_L_SVG_Icon_Set
+SVG Icon Project

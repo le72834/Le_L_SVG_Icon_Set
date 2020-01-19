@@ -1,0 +1,14 @@
+<svg id="lifebuoy" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72.75 75.46"><defs><style type="text/css">
+#ububble:hover {
+fill: pink;
+}
+#dbubble:hover {
+fill:pink;
+}
+#bigcircle:hover {
+fill: #999;
+}
+
+
+  .cls-1{fill:#d0edf5;}.cls-2{fill:#ffdfa1;}.cls-2,.cls-4,.cls-5,.cls-6{stroke:#9e2062;}.cls-2,.cls-3,.cls-4,.cls-5,.cls-6{stroke-miterlimit:10;}.cls-3{fill:none;stroke:#ffdfa1;}.cls-4{fill:#f69b9e;}.cls-5{fill:#fcf8f8;}.cls-6{fill:#fff;}</style>
+</defs><title>Lifebuoy</title><circle id="ububble" class="cls-1" cx="15.32" cy="13.35" r="13.35"/><circle id="dbubble" class="cls-1" cx="7.66" cy="29.18" r="7.66"/><g id="halfcircle"><path class="cls-2" d="M34.59,13.34c1.24-4.92,8.66-5,9.78,0Z"/><path class="cls-2" d="M10.26,47.22c-4.91-1.24-5-8.65,0-9.78Z"/><path class="cls-2" d="M68.53,37.44c4.92,1.25,5,8.66,0,9.78Z"/><path class="cls-2" d="M44.86,71.24c-1.25,4.91-8.66,5-9.78,0Z"/></g><rect id="frame" class="cls-3" x="10.26" y="13.43" width="57.81" height="57.81" rx="14.09"/><circle id="bigcircle" class="cls-4" cx="39.17" cy="42.33" r="28.91"/><g id="symbols"><path class="cls-5" d="M24.5,32.54l-8.19-7.9a30.06,30.06,0,0,1,6.58-6.22l8,8A17.42,17.42,0,0,0,24.5,32.54Z"/><path class="cls-5" d="M48.57,26.81l8.1-7.47A25.1,25.1,0,0,1,63,26l-8.42,7.1A19.6,19.6,0,0,0,48.57,26.81Z"/><path class="cls-5" d="M31.62,57.06l-8.88,9.07c-2.43-1.89-4.87-3.73-6.55-6.26L24.8,51C26.31,53.77,29.08,55.55,31.62,57.06Z"/><path class="cls-5" d="M54.49,50.05l8.67,8.42A24.08,24.08,0,0,1,57,65.09L48.29,56.4A21.05,21.05,0,0,0,54.49,50.05Z"/></g><circle id="smallcircle" class="cls-6" cx="39.36" cy="41.52" r="17.36"/></svg>

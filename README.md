@@ -1,4 +1,4 @@
-![All About Sea Elements Icons](sea.jpg "Sea")
+![All About Sea Elements Icons](images/sea.jpg "Sea")
 
 # These icons are about sea elements Icons
 

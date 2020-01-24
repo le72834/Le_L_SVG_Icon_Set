@@ -14,6 +14,5 @@ Clone this to the location of your choice, open in your favourite editor and hac
 Just an editor and Git!
 
 ### Authors
-1.Linh Le
-
+1.Linh Le.
 

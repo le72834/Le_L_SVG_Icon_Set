@@ -2,8 +2,64 @@
   display: inline-block;
   width: 15%;
   padding: 10px 20px;
+}
+.hidden {
+  display: none;
+}
+h1 {
+  text-transform: uppercase;
+}
+.wrapper {
+  background-color: #A8D0E6;
+}
+.selected {
+  color:green;
+  padding-left: 0.5em;
+}
+.selected:not(.svg-img)::before {
+  content: '\2713';
+}
+.svg-img > * {
+  pointer-events: none;
 
+}
+.svg-img {
+  position: relative;
+  cursor: pointer;
+}
+.svg-img.selected::after {
+  content: '\2713';
+  font-size: 5em;
+  position: absolute;
+  top: -15px;
+  right: -50px;
+  color: green;
+}
 
+.lifebuoy:hover {
+  -webkit-animation: myLifebuoy 4s linear infinite;
+       -moz-animation: myLifebuoy 4s linear infinite;
+         -o-animation: myLifebuoy 4s linear infinite;
+            animation: myLifebuoy 4s linear infinite;
+}
+@-webkit-keyframes myLifebuoy {
+    from { -webkit-transform: rotate(0deg) translateX(150px) rotate(0deg); }
+    to   { -webkit-transform: rotate(360deg) translateX(150px) rotate(-360deg); }
+}
+
+@-moz-keyframes myLifebuoy {
+    from { -moz-transform: rotate(0deg) translateX(150px) rotate(0deg); }
+    to   { -moz-transform: rotate(360deg) translateX(150px) rotate(-360deg); }
+}
+
+@-o-keyframes myLifebuoy {
+    from { -o-transform: rotate(0deg) translateX(150px) rotate(0deg); }
+    to   { -o-transform: rotate(360deg) translateX(150px) rotate(-360deg); }
+}
+
+@keyframes myLifebuoy {
+    from { transform: rotate(0deg) translateX(150px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(150px) rotate(-360deg); }
 }
 
 .lighthouse {

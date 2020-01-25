@@ -5,9 +5,9 @@
 (() => {
   console.log("some message - from JavaScript");
 // find the button element on the page by its ID with JavaScript
-  let theHeading = document.querySelector('h1'),
+  const theHeading = document.querySelector('h1'),
       //svgImage = document.querySelector("#svgGraphic")
-      allSVGs = document.querySelectorAll(".svg");
+      allSVGs = document.querySelectorAll('.svg-img');
 
   // this is function changes the heading text
 
@@ -16,7 +16,10 @@
   }
   */
   //log the id of the svg to the console when user hovers on it
-  function logSVG() {
+
+
+  function toggleSelection() {
+    this.classList.toggle("selected");
     console.log(this.id);
   }
 
@@ -25,7 +28,10 @@
   //svgImage.addEventListener("click", logSVG);
   //svgImage2.addEventListener("click", logSVG);
   //loop through the collection and apply our event handling to each element
-  allSVGs.forEach(item => item.addEventListener("click", logSVG));
+  //allSVGs.forEach(item => item.addEventListener('click', logSVG));
+  allSVGs.forEach(item => item.addEventListener('click', toggleSelection));
+
+
 
   //document.querySelector('h1').textContent ="Hello World";
 
